@@ -1,11 +1,10 @@
 name: OpenWrt-2.4
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: 0 20 * * *
   push:
+    branches:
+      - master
     tags:
       - '*'
 jobs:
