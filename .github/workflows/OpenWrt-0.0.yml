@@ -5,9 +5,9 @@ on:
       - master
   schedule:
     - cron: 0 20 * * *
-  # push:
-    # tags:
-      # - '*'
+  push:
+    tags:
+      - '*'
 jobs:
   build_openwrt:
     name: Build OpenWrt and release
