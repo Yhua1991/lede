@@ -1,4 +1,4 @@
-name: OpenWrt-2.5
+name: OpenWrt-2.6
 
 on:
   push:
